@@ -1,0 +1,248 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Iran Full Calendar JA Complete//EN
+
+##################################
+# ■ 毎週金曜
+##################################
+BEGIN:VEVENT
+UID:fri@iran
+DTSTAMP:20260422T000000Z
+SUMMARY: ジョムエ
+DTSTART;VALUE=DATE:20260206
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20270430
+END:VEVENT
+
+##################################
+# ■ 国家祝日
+##################################
+
+BEGIN:VEVENT
+UID:rev@iran
+SUMMARY: 革命記念日
+DESCRIPTION: روز پیروزی انقلاب اسلامی
+
+1979年イスラーム革命記念日。
+DTSTART;VALUE=DATE:20260211
+END:VEVENT
+
+BEGIN:VEVENT
+UID:oil@iran
+SUMMARY: 石油国有化
+DESCRIPTION: ملی شدن صنعت نفت
+
+石油産業国有化記念日。
+DTSTART;VALUE=DATE:20260320
+END:VEVENT
+
+BEGIN:VEVENT
+UID:rep@iran
+SUMMARY: 共和国記念日
+DESCRIPTION: روز جمهوری اسلامی
+
+イスラーム共和国成立。
+DTSTART;VALUE=DATE:20260401
+END:VEVENT
+
+BEGIN:VEVENT
+UID:15kh@iran
+SUMMARY: ホルダード蜂起
+DESCRIPTION: قیام ۱۵ خرداد
+
+1963年蜂起記念。
+DTSTART;VALUE=DATE:20260605
+END:VEVENT
+
+##################################
+# ■ ノウルーズ期
+##################################
+
+BEGIN:VEVENT
+UID:nor1@iran
+SUMMARY: ノウルーズ
+DESCRIPTION: نوروز
+
+イラン新年。
+DTSTART;VALUE=DATE:20260321
+END:VEVENT
+
+BEGIN:VEVENT
+UID:nor2@iran
+SUMMARY: ノウルーズ休暇
+DESCRIPTION: تعطیلات نوروز
+
+新年休暇。
+DTSTART;VALUE=DATE:20260322
+END:VEVENT
+
+BEGIN:VEVENT
+UID:nor3@iran
+SUMMARY: シーズダベダル
+DESCRIPTION: سیزده‌بدر
+
+新年13日目。
+DTSTART;VALUE=DATE:20260402
+END:VEVENT
+
+##################################
+# ■ 主要宗教行事
+##################################
+
+BEGIN:VEVENT
+UID:ali_birth@iran
+SUMMARY: アリー生誕
+DESCRIPTION: میلاد امام علی
+
+第1代イマーム誕生日。
+DTSTART;VALUE=DATE:20260305
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ali_martyr@iran
+SUMMARY: アリー殉教日
+DESCRIPTION: شهادت امام علی
+
+第1代イマーム殉教。
+DTSTART;VALUE=DATE:20260331
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fatima_birth@iran
+SUMMARY: ファーティマ生誕
+DESCRIPTION: میلاد حضرت فاطمه
+
+ファーティマ誕生日。
+DTSTART;VALUE=DATE:20260315
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fatima_martyr@iran
+SUMMARY: ファーティマ殉教日
+DESCRIPTION: شهادت حضرت فاطمه
+
+ファーティマ殉教。
+DTSTART;VALUE=DATE:20260326
+END:VEVENT
+
+BEGIN:VEVENT
+UID:mahdi_birth@iran
+SUMMARY: マフディー生誕
+DESCRIPTION: میلاد امام مهدی
+
+第12代イマーム誕生日。
+DTSTART;VALUE=DATE:20260308
+END:VEVENT
+
+BEGIN:VEVENT
+UID:fitr@iran
+SUMMARY: フィトル
+DESCRIPTION: عید فطر
+
+ラマダーン明け。
+DTSTART;VALUE=DATE:20260410
+END:VEVENT
+
+BEGIN:VEVENT
+UID:sadeq@iran
+SUMMARY: サーディク殉教日
+DESCRIPTION: شهادت امام جعفر صادق
+
+第6代イマーム。
+DTSTART;VALUE=DATE:20260413
+END:VEVENT
+
+BEGIN:VEVENT
+UID:adha@iran
+SUMMARY: アドハー
+DESCRIPTION: عید قربان
+
+犠牲祭。
+DTSTART;VALUE=DATE:20260617
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ghadir@iran
+SUMMARY: ガディール
+DESCRIPTION: عید غدیر
+
+後継宣言。
+DTSTART;VALUE=DATE:20260625
+END:VEVENT
+
+BEGIN:VEVENT
+UID:ashura@iran
+SUMMARY: アーシューラー
+DESCRIPTION: عاشورا
+
+フサイン殉教。
+DTSTART;VALUE=DATE:20260706
+END:VEVENT
+
+BEGIN:VEVENT
+UID:arbain@iran
+SUMMARY: アルバイーン
+DESCRIPTION: اربعین
+
+40日追悼。
+DTSTART;VALUE=DATE:20260815
+END:VEVENT
+
+BEGIN:VEVENT
+UID:hasan_martyr@iran
+SUMMARY: ハサン殉教日
+DESCRIPTION: شهادت امام حسن
+
+第2代イマーム。
+DTSTART;VALUE=DATE:20260830
+END:VEVENT
+
+BEGIN:VEVENT
+UID:prophet_birth@iran
+SUMMARY: 預言者生誕
+DESCRIPTION: میلاد پیامبر
+
+預言者ムハンマド。
+DTSTART;VALUE=DATE:20260926
+END:VEVENT
+
+BEGIN:VEVENT
+UID:reza_martyr@iran
+SUMMARY: レザー殉教日
+DESCRIPTION: شهادت امام رضا
+
+第8代イマーム。
+DTSTART;VALUE=DATE:20261005
+END:VEVENT
+
+BEGIN:VEVENT
+UID:askari_martyr@iran
+SUMMARY: アスカリー殉教日
+DESCRIPTION: شهادت امام حسن عسکری
+
+第11代イマーム。
+DTSTART;VALUE=DATE:20261018
+END:VEVENT
+
+##################################
+# ■ 2027 主要
+##################################
+
+BEGIN:VEVENT
+UID:rev27@iran
+SUMMARY: 革命記念日
+DESCRIPTION: روز پیروزی انقلاب اسلامی
+
+革命記念。
+DTSTART;VALUE=DATE:20270211
+END:VEVENT
+
+BEGIN:VEVENT
+UID:nor27@iran
+SUMMARY: ノウルーズ
+DESCRIPTION: نوروز
+
+新年。
+DTSTART;VALUE=DATE:20270321
+END:VEVENT
+
+END:VCALENDAR
